@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+  }
+  
+  body {
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .jumbotron {
+   background-color: #091958;
+    display: grid;
+    color: white;
+    justify-content: center;
+    height: 300px;
+    justify-content: center;
+  }
+.jumbotron p {
+    align-content: center;
+}
+.texto{
+    align-content: center;
+    justify-content: center;
+
+}
+.cards{
+   
+    padding: 50px 50px 50px 50px;
+    justify-content: center;
+  } 
+
+.card{
+    border-radius: 8px;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 0.5rem 1.2rem rgb(0 0 0 / 20%);
+    padding: 0.75rem 1.25rem;
+  }
+
+  
+.card:hover {
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+    transform: scale(1.03);
+    cursor: pointer;
+  }  
+
+.titulo-seccion {
+   
+    font-style: bold;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgb(9, 24, 108);
+    text-align: center;
+  }
+
+.texto{
+  text-align: center;
+  margin-top: ;
+}
+.textos-jumbo{
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.card i {
+    margin-top: 40px;
+    margin-left: 50px;
+    color: #091958;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.footer-i{
+    font-size: 40px;
+    color: #e7e9f2;
+}
+.container-contacto{
+    margin-top: 50px;
+    
+}
+
+.footer{
+    padding-top: 50px;
+    color: white;
+    background-color:#091958;
+}
+
+
+/* unvisited link */
+a:link {
+  color: rgb(255, 255, 255);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(251, 252, 251);
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
