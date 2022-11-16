@@ -1,89 +1,128 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: 0;
-  }
-  
-  body {
-    margin: 0 auto;
-    width: 100%;
-  }
-  
-  .jumbotron {
-   background-color: #091958;
-    display: grid;
-    color: white;
-    justify-content: center;
-    height: 300px;
-    justify-content: center;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.main {
+  background-color: #e4e7eb;
+}
+
+.jumbotron {
+  background-image: url(./assets/background.jpg);
+  color: #e7e9f2;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 430px;
+
+}
+
+
+.logo-row {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  margin-top: 20px;
+  width: 40%;
+  text-align: center;
+
+
+}
+
 .jumbotron p {
-    align-content: center;
+  align-content: center;
 }
-.texto{
-    align-content: center;
-    justify-content: center;
+
+.texto {
+  align-content: center;
+  justify-content: center;
 
 }
-.cards{
-   
-    padding: 50px 50px 50px 50px;
-    justify-content: center;
-  } 
 
-.card{
-    border-radius: 8px;
-    border: 1px solid #eaeaea;
-    box-shadow: 0 0.5rem 1.2rem rgb(0 0 0 / 20%);
-    padding: 0.75rem 1.25rem;
-  }
+.form-mail {
+  border-radius: 0%;
+  color: inherit;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid;
 
-  
+
+}
+}
+
+.boton {
+  border-radius: 9px;
+}
+
+.cards {
+
+  padding: 50px 50px 50px 50px;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 8px;
+  border: 1px solid #eaeaea;
+
+  padding: 0.75rem 1.25rem;
+}
+
+
 .card:hover {
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
-    transform: scale(1.03);
-    cursor: pointer;
-  }  
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+  transform: scale(1.03);
+  cursor: pointer;
+}
 
 .titulo-seccion {
-   
-    font-style: bold;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    color: rgb(9, 24, 108);
-    text-align: center;
-  }
 
-.texto{
+  font-style: bold;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: rgb(9, 24, 108);
+  text-align: center;
+}
+
+.texto {
   text-align: center;
   margin-top: ;
 }
-.textos-jumbo{
+
+.textos-jumbo {
   justify-content: center;
-  padding-top: 60px;
+  padding-top: 20px;
 }
 
 .card i {
-    margin-top: 40px;
-    margin-left: 50px;
-    color: #091958;
-    font-size: 30px;
-    justify-content: center;
+  margin-top: 40px;
+  margin-left: 50px;
+  color: #091958;
+  font-size: 30px;
+  justify-content: center;
 }
 
-.footer-i{
-    font-size: 40px;
-    color: #e7e9f2;
-}
-.container-contacto{
-    margin-top: 50px;
-    
+.footer-i {
+  font-size: 40px;
+  color: #e7e9f2;
 }
 
-.footer{
-    padding-top: 50px;
-    color: white;
-    background-color:#091958;
+.container-contacto {
+  margin-top: 50px;
+
+}
+
+.footer {
+  padding-top: 50px;
+  color: white;
+  background-color: #091958;
 }
 
 
