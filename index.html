@@ -8,6 +8,9 @@
     content="An impressive and flawless site template that includes various UI elements and countless features, attractive ready-made blocks and rich pages, basically everything you need to create a unique and professional website.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>IMG Gestión Inmobiliaria</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style2.css">
   <!-- CSS only -->
   <link
@@ -27,7 +30,8 @@
         <nav class="navbar navbar-expand-lg sticky-top">
           <!-- sticky-top para que el nav no se mueva en el cel -->
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">IMG Gestión Inmobiliaria</a>
+            <img class="mini-logo" src="./assets/logo.png"
+                        type="">
             <div class="justify-content-end">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNavDropdown"
@@ -41,7 +45,7 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item ">
-                    
+                    <a class="nav-link" href="#">Servicios</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Nosotros</a>
@@ -55,15 +59,15 @@
         </nav>
         <div class="row">
           <div class="logo-row">
-            <img class="logo" src="./assets/logo.png" alt="">
+            
           </div>
         </div>
         <div class="textos-jumbo">
-          <p class="texto">Gestionamos tus propiedades en Providencia</p>
+          <p class="texto">Gestionamos tus propiedades <br>en Providencia</p>
   
           <form class="text-center">
             <div class="mb-3">
-              <h3>Más Información</h3>
+              <p class="text-info">Más Información</p>
               <label for="exampleInputEmail1" class="form-label"></label>
               <input  placeholder="name@example.com" type="email" class="form-mail text-center" id="exampleInputEmail1" aria-describedby="emailHelp">
             </div>
@@ -77,9 +81,9 @@
         <!-- <h2 class="titulo-seccion">servicios</h2> -->
         <h2 class="display-4 mb-3 text-center">Servicios</h2>
       </div>
-      <div class="row row-cols-2 row-cols-md-2 g-4">
-        <div class="col">
-          <div class="card">
+      <div class="row g-3">
+        
+          <div class="card col-sm-12 col-md-6">
             <a href="#"><i class="fa-solid fa-house"></i></a>
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -88,9 +92,9 @@
                 is a little bit longer.</p>
             </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="card">
+        
+        
+          <div class="card col-sm-12 col-md-6">
             <a href="#"><i class="fa-solid fa-house"></i></a>
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -99,9 +103,9 @@
                 is a little bit longer.</p>
             </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="card">
+        
+        
+          <div class="card col-sm-12 col-md-6">
             <a href="#"><i class="fa-solid fa-house"></i></a>
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -110,9 +114,9 @@
                 is a little bit longer.</p>
             </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="card">
+        
+        
+          <div class="card col-sm-12 col-md-6">
             <a href="#"><i class="fa-solid fa-house"></i></a>
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -120,7 +124,7 @@
                 below as a natural lead-in to additional content.</p>
             </div>
           </div>
-        </div>
+        
       </div>
     </div>
     <section class="nosotros ">
