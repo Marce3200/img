@@ -55,7 +55,7 @@ body {
 
 }
 
-.text-info{
+.text-infor{
   color: #FFFFFF
   ;
 }
@@ -66,6 +66,7 @@ body {
   background: transparent;
   border: 0;
   border-bottom: 1px solid;
+  
 
 
 }
@@ -78,7 +79,7 @@ body {
 .cards {
 
   padding: 20px 20px 20px 20px;
-  justify-content: center;
+  
 }
 
 .card {
@@ -88,13 +89,19 @@ body {
   padding:10px:
 }
 
-.card-title{
-  text-align: center;
-}
+
 
 .card-text{
   font-size: small;
+  
+}
+
+.card-body{
   text-align: center;
+}
+
+.display-4 {
+  font-family: 'Noto Sans', sans-serif;;
 }
 
 .card:hover {
@@ -123,11 +130,16 @@ body {
 }
 
 .card i {
-  margin-top: 40px;
-  margin-left: 50px;
+  margin-top: 15px;
+  margin-bottom: 8px;
+
   color: #091958;
   font-size: 30px;
   justify-content: center;
+}
+
+.ico{
+  text-align: center;
 }
 
 .footer-i {
